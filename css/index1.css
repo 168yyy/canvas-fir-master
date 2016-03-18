@@ -1,0 +1,97 @@
+*{
+margin: 0;
+	padding: 0;
+}
+body{
+	/*background-color: #f0f0f0;*/
+	/* background-image: url(../image/1.jpg);
+	background-repeat: no-repeat; */
+	
+	padding: 30px 50px;
+}
+.beijing{
+	width: 100%;
+	height: 100%;
+	
+	background-image: url(../image/1.jpg);
+	background-repeat: no-repeat;
+}
+
+h2{
+	/*font-size: 35px;*/
+	color: #878787;
+	padding:0 0 0 570px;
+	font-weight: bolder;
+	/*font-family: "Gungsuh";*/
+	font-family: "Algerian";
+	/*margin-left: 650px;*/
+}
+#score {
+	color: #737375;
+	font-weight:bolder;
+	font-size:20px;
+	position: absolute;
+	margin-top: -636px;
+	margin-left: 1000px;
+}
+#btn{
+	width: 150px;
+	height: 35px;
+	background-color: #388328;
+	color: #ffffff;
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow:3px 3px 6px #29611e;
+	margin-left: 260px;
+	position: absolute;
+	margin-top: 200px;
+}
+
+#btn1{
+	width: 150px;
+	height: 35px;
+	background-color: #388328;
+	color: #ffffff;
+	font-family: "微软雅黑";
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow:3px 3px 6px #29611e;
+	margin-left: 260px;
+	position: absolute;
+	margin-top: 350px;
+}
+
+#resize{
+	width: 220px;
+	height: 220px;
+	border: 2px dashed #183811;
+	position: absolute;
+	color: #214d18;
+	font-size: 19px;
+	font-weight: bold;
+	font-family: "华文新魏";
+	box-shadow: 4px 4px 6px #29611e,-3px -3px 6px #29611e;
+	margin-left: 30px;
+	margin-top: 200px;
+}
+#btn:hover{
+	cursor: pointer;
+   background-color:#214E18 ;
+   color: #c6c6c6;
+}
+#btn1:hover{
+	cursor: pointer;
+	background-color:#214E18 ;
+	color: #c6c6c6;
+}
+#Name{
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 80px;
+	font-size: 40px;
+	font-family: "方正舒体";
+
+}

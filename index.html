@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>五子棋</title>
+    <link rel="stylesheet" href="css/index1.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    
+</head>
+<body>
+    <div class="beijing">
+    <input type="button" value="开 始 游 戏" id="btn" onClick="btnStart()" class="btn"/>
+    <input type="button" value="重 新 开 始" id="btn1" class="btn"/>
+
+    <div id="resize">
+        <h3>游戏说明：</h3>
+        <br/>
+        <p>五子棋是一种两人对弈的纯策略型棋类游戏，通常双方分别使用黑白两色的棋子，下在棋盘直线与横线的交叉点上<br>先形成5子连线者获胜</p>
+        </div>
+        <div id="Name">
+            <h3>五 子 棋</h3>
+        </div>
+        
+        <canvas id="canvas" width="600" height="600"></canvas>
+        <img id="sucai" src="image/qizi.png" style="display:none" alt="">
+        <div id="score">
+            得分： <span id="score_one"></span>
+        </div>
+    </div>
+    </body>
+    </html>
